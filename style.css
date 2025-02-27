@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+h1 {
+    font-size: 28px;
+    color: navy;
+}
+h2 {
+    font-size: 22px;
+    color: darkred;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: lightgray;
+}
+.separator {
+    border-top: 2px solid gray;
+    margin: 20px 0;
+}
+.animated-text {
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+    animation: fadeIn 2s infinite alternate;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.query-form {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.query-form label, .query-form input, .query-form textarea, .query-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.query-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #030e13;
+    height: 70px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
